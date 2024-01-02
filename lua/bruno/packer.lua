@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
 
     use {
+        'nvim-lualine/lualine.nvim',
         'nvim-tree/nvim-tree.lua',
         requires = {
             'nvim-tree/nvim-web-devicons', -- optional
